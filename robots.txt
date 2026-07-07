@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://ryvonixe.vercel.app/sitemap.xml
