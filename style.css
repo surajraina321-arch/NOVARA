@@ -175,7 +175,7 @@ nav{
 }
 
 .hero h1 span{
-    color:#7C5CFC;
+    color: #B9A8FF;
 }
 
 .description{
@@ -192,7 +192,7 @@ nav{
 }
 
 .primary{
-    background:#7C5CFC;
+    background: #6842E3;
     color:white;
     border:none;
     padding:18px 40px;
@@ -513,7 +513,7 @@ nav{
 }
 
 .section-tag{
-    color:#7C5CFC;
+    color: #B9A8FF;
     font-size:15px;
     letter-spacing:4px;
     font-weight:600;
