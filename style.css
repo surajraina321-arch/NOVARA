@@ -1553,3 +1553,38 @@ nav{
 
 }
 
+/* Premium Scrollbar */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0B0B12;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(180deg,#7C5CFC,#00D4FF);
+    border-radius:100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(180deg,#9B84FF,#2DD4FF);
+}
+
+html{
+    scrollbar-color:#7C5CFC #0B0B12;
+    scrollbar-width:thin;
+}
+/* Scroll Progress Bar */
+
+.progress-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:0%;
+    height:4px;
+    background:linear-gradient(90deg,#7C5CFC,#00D4FF);
+    z-index:9999;
+    transition:width .15s linear;
+}

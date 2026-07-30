@@ -77,3 +77,22 @@ const mobileNav = document.querySelector(".nav-links");
 menuToggle.addEventListener("click", () => {
     mobileNav.classList.toggle("active");
 });
+
+// Scroll Progress Bar
+
+const progressBar = document.querySelector(".progress-bar");
+
+window.addEventListener("scroll", () => {
+
+    const scroll =
+        document.documentElement.scrollTop;
+
+    const height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+
+    const progress = (scroll / height) * 100;
+
+    progressBar.style.width = progress + "%";
+
+});
